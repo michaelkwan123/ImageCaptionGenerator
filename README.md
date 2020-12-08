@@ -1,6 +1,7 @@
 # image_caption_generator
 
 Image caption generator based on Tensorflow 2.3
+
 This aim of this project to build a deep learning model capable of generating a predicted caption given an image input. The dataset used is the Flickr8k dataset, which contains 6000 images with 5 associated captions each. A merged model of an InceptionV3 feature extractor and a LSTM recurrent neural network sequence processor is used to generate caption predictions for images.
 
 The file 'caption_generator.ipynb' contains the code of the project where as the file 'model.png' illustrates the structure and design of the merged model. The model was also subsequently deployed as a webapp via Streamlit, with the code used in 'webapp.py'. https://docs.google.com/presentation/d/1JUA-3PtObBcu_LKAY4HEKZpPseSZ2kInKLBfYrKR3aw/edit?usp=sharing contains a presentation outlining the process and structure of the project, as well as providing more informationthe on the design,evaluation and deployment of the model.
